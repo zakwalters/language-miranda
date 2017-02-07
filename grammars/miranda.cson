@@ -22,19 +22,19 @@
     {
         # num
         'name' : 'constant.numeric.miranda'
-        'match' : '[0-9]+(\\.[0-9]+)?(e-?[0-9]*(\\.[0-9]+)?)?'
+        'match' : '\\b[0-9]+(\\.[0-9]+)?(e-?[0-9]*(\\.[0-9]+)?)?\\b'
     }
     {
         # other
         'name' : 'constant.language.miranda'
-        'match' : '\\bTrue\\b|\\bFalse\\b|\\(\\)'
+        'match' : '(\\bTrue\\b|\\bFalse\\b|\\(\\))'
     }
 
     # Keywords and operators
     {
         # control keywords
         'name' : 'keyword.control.miranda'
-        'match' : '\\bif\\b|\\botherwise\\b|\\bwhere\\b'
+        'match' : '\\bif\\b|\\botherwise\\b|\\bwhere\\b|\\berror\\b'
     }
     {
         # mathematical operators
