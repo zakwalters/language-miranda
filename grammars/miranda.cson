@@ -1,0 +1,73 @@
+
+'scopeName' : 'source.miranda'
+'name'      : 'Miranda'
+'fileTypes' : ['m']
+
+'patterns' : [
+
+    # Comments
+    {
+        # Single line comments
+        'name' : 'comment.line.vbar.miranda'
+        'match' : '\\|\\|.*'
+    }
+
+    # Constants - chars, nums, bools, and null
+    {
+        # char
+        'name' : 'constant.character.miranda'
+        'begin' : "'"
+        'end' : "'"
+    }
+    {
+        # num
+        'name' : 'constant.numeric.miranda'
+        'match' : '[0-9]+(\\.[0-9]+)?(e-?[0-9]*(\\.[0-9]+)?)?'
+    }
+    {
+        # other
+        'name' : 'constant.language.miranda'
+        'match' : '\\bTrue\\b|\\bFalse\\b|\\(\\)'
+    }
+
+    # Keywords and operators
+    {
+        # control keywords
+        'name' : 'keyword.control.miranda'
+        'match' : '\\bif\\b|\\botherwise\\b|\\bwhere\\b'
+    }
+    {
+        # mathematical operators
+        'name' : 'keyword.operator.math.miranda'
+        'match' : '\\+|-|\\*|\\/|\\^|\\bdiv\\b|\\bmod\\b'
+    }
+    {
+        # logical operators
+        'name' : 'keyword.operator.logic.miranda'
+        'match' : '\\\\\/|&|~'
+    }
+    {
+        # comparison operators
+        'name' : 'keyword.operator.comparison.miranda'
+        'match' : '=|~=|<|<=|>|>='
+    }
+    {
+        # other operators
+        'name' : 'keyword.operator.other.miranda'
+        'match' : ':|\\+\\+|--|->'
+    }
+
+    # Type names
+    {
+        'name' : 'storage.type.miranda'
+        'match' : '\\b(bool|char|num)\\b|\\*+'
+    }
+
+    # String literals
+    {
+        'name' : 'string.quoted.double.miranda'
+        'begin' : '"'
+        'end' : '"'
+    }
+
+]

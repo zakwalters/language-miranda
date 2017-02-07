@@ -1,0 +1,10 @@
+{
+  "name": "language-miranda",
+  "version": "0.1.0",
+  "description": "A syntax highlighter for the Miranda programming language for the Atom text editor.",
+  "engines": {
+    "atom": "*"
+  },
+  "author": "Zak Walters",
+  "license": "ISC"
+}
