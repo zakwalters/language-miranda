@@ -1,6 +1,6 @@
 {
   "name": "language-miranda",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A syntax highlighter for the Miranda programming language for the Atom text editor.",
   "engines": {
     "atom": "*"
