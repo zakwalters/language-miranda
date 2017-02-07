@@ -5,6 +5,13 @@
   "engines": {
     "atom": "*"
   },
+  "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/tOOtl/language-miranda.git"
+  },
+  "bugs" : {
+      "url" : "https://github.com/tOOtl/language-miranda.git/issues"
+  },
   "author": "Zak Walters",
   "license": "ISC"
 }
