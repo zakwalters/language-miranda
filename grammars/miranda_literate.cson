@@ -2,20 +2,14 @@
 'scopeName' : 'source.mirandaLiterate'
 'name'      : 'Miranda Literate'
 'fileTypes' : ['m']
-'firstLineMatch': '^(>\\|\\|).*'
+'firstLineMatch': '^>.*'
 
 'patterns' : [
-
-    # Head Comment
-    {
-        'name' : 'comment.line.vbar.miranda'
-        'match' : '^(>\\|\\|).*'
-    }
 
     # Code
     {
         'begin' : '^>'
-        'end' : '\n|\r\n'
+        'end' : '\n'
         'patterns' : [
 
                 # Comments
@@ -88,7 +82,7 @@
 
     # Text
     {
-        'name' : 'comment'
+        'name' : 'comment.line.literate.miranda'
         'match' : '.*'
     }
 
