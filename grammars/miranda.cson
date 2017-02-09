@@ -2,6 +2,7 @@
 'scopeName' : 'source.miranda'
 'name'      : 'Miranda'
 'fileTypes' : ['m']
+'firstLineMatch': '(^[^>]).*(->|::)'
 
 'patterns' : [
 
